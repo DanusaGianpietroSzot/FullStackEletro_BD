@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contato - Full Stack Eletro</title>
+        <link rel="stylesheet" href="./css/estilo.css">
+        <script src="./script/script.js"></script>
+    </head>
+    </head>
+    <body>
+        <!-- Menu -->
+        <nav class="menu">
+            <a href="./index.html"><img id="logotipo" src="./imagens/logotipo.jpeg" alt="Logotipo Full Stack Eletro"></a>
+            <a href="./produtos.html" class="menuA">Produtos</a>
+            <a href="./loja.html" class="menuA">Nossas Lojas</a>
+            <a href="./contato.html" class="menuA">Contato</a>
+        </nav>
+        <!-- Fim do Menu -->        
+        <!-- conteúdo -->
+        <main id="contatoPage">
+            <section class="contato">
+                <h1>Contato</h1>
+                <hr/>
+                <br/><br/>
+                <div>
+                    <img src="./imagens/email.png">
+                    <p>contato@fullstackeletro.com</p>
+                </div>
+                <div>
+                    <img src="./imagens/whatsapp.jpeg">
+                    <p>(11) 99999-9999</p>
+                </div>
+            </section>
+            <br/><br/>
+            <!-- Inicio do formulário -->
+            <section class="contatoForm">
+                <form>
+                    <h2>Nome: </h2> 
+                    <input type="text" id="nome"/>  
+                    <h2>Mensagem: </h2>
+                    <textarea id="msg"></textarea>
+                    <input id="submit" type="button" value="Enviar" onclick="checkFrom()"/>
+                </form>
+            </section>
+            <!-- Fim do formulário -->
+        </main>
+        <!-- Fim do conteúdo -->
+        <br/><br/><br/>
+        <!-- Rodapé -->
+        <footer>
+            <p id="formasDePagamento">Formas de pagamento</p>
+            <img src="./imagens/formasDePagamento.jpeg" alt="Formas de pagamento"> 
+            <p id="rodape">&copy; Recode Pro</p>
+        </footer>
+        <!-- Fim do Rodapé -->
+    </body>
+</html>
